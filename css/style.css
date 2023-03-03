@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  border: 100% solid white;
+}
+
+.container {
+  max-width: 1500px;
+  height: 2444px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #919191;
+}
+
+header {
+  max-width: 1500px;
+  height: 400px;
+  width: 100%;
+  position: relative;
+  background-color: #919191;
+  text-align: center;
+  color: white;
+  z-index: 5;
+  color: white;
+  width: 100%;
+}
+header .fundo {
+  max-width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 100px 0 0 1250px;
+  border-color: transparent transparent transparent #ffffff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+}
+header h2 {
+  padding-top: 70px;
+  font-weight: 100;
+  font-size: 16px;
+}
+header h1 {
+  margin-top: 10px;
+}
+header h3 {
+  margin-top: 30px;
+}
+.botoes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 30px;
+}
+.botao {
+  width: 160px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+}
+
+.content {
+  display: flex;
+}
+
+.content section {
+  width: 60%;
+}
+
+.content form {
+  display: flex;
+  flex-direction: column;
+  width: 340px;
+  height: 227px;
+}
+
+.content form label {
+  margin-top: 20px;
+}
+
+.content form input {
+  height: 30px;
+}
+
+.content form label:first-of-type {
+  margin-top: 0;
+}
+.content form label:nth-child(4),
+.content form label:nth-child(6) {
+  margin: 0px 0px;
+}
+.sexo input:nth-of-type(2){
+  margin-left: 20px;
+  margin-right: 5px;
+}
+.sexo input:nth-of-type(1){
+  margin-right: 5px;
+}
+.sexo {
+  display: flex;
+  align-items: center;
+}
